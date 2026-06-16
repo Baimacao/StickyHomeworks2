@@ -7,11 +7,13 @@ on:
       - "master"
       - "dev"
       - "dev1"
+      - "fix/**"
   pull_request:
     branches: 
       - "master"
       - "dev"
       - "dev1"
+  workflow_dispatch:
 
 jobs:
   build:
